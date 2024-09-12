@@ -15,3 +15,13 @@ console.log(true);
 // null: Se caracteriza como um valor vazio, porém existente.
 // undefined: Se caracteriza como um valor inexistente.
 // typeof: Expressão utilizada para retornar objetos.
+
+// Variáveis -> Utilizadas para armazenar dados/valores.
+var a = 5 + 6;
+console.log(a); // retorna o valor da soma na variável 'a'
+
+let b = 7 + 2; // Utilizada como boa prática.
+console.log(b); // retorna o valor da soma na variável 'b'
+
+const c = 10 + 2; // Utilizada para armazenar valores que não mudam/alteram.
+console.log(c); //retorna o valor da soma na variável 'c'
