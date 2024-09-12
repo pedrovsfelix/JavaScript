@@ -34,3 +34,24 @@ console.log(c); //retorna o valor da soma na variável 'c'
 let d = 4 % 2;
 console.log(d);
 
+// Estruturas condicionais
+// if e else: se ou senão
+
+if(a === 1) {
+    console.log("Resultado: 11, no laço if.")
+} else {
+    console.log("Resultado é diferente.")
+}
+
+// switch: caso seja algo
+const resultado = 11;
+switch(resultado) {
+    case 11:
+        console.log("Resultado: 11.");
+        break;
+    case 22:
+        console.log("Resultado: 22.");
+        break;
+    default:
+        console.log("Resultado não é válido.");
+}
