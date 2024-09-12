@@ -55,3 +55,27 @@ switch(resultado) {
     default:
         console.log("Resultado não é válido.");
 }
+
+// Estrutura de repetição
+// While
+let velocidade = 60;
+while(velocidade > 0) {
+    console.log("O carro está a" + velocidade + " km/h");
+    velocidade -= 10;
+    console.log("Diminuindo " + velocidade + " km/h");
+    if(velocidade === 10) {
+        console.log("O carro está a " + velocidade + "km/h");
+        break
+    } else {
+        console.log("O carro parou!")
+    }
+}
+
+// Do While
+let distancia = 0;
+do {
+    console.log("A distância é: " + distancia + " m");
+    distancia -= 20;
+} while(distancia > 0) {
+    console.log("A distância final: " + distancia + "m");
+}
