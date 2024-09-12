@@ -25,3 +25,12 @@ console.log(b); // retorna o valor da soma na variável 'b'
 
 const c = 10 + 2; // Utilizada para armazenar valores que não mudam/alteram.
 console.log(c); //retorna o valor da soma na variável 'c'
+
+
+// Operadores e Expressões
+// operadores aritméticos: +| - | * | / | %
+// operador de agrupamento: ()
+// operador de atribuição: = | += incrementar | -= decrementar | *= | /= | %=
+let d = 4 % 2;
+console.log(d);
+
