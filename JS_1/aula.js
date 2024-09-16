@@ -79,3 +79,9 @@ do {
 } while(distancia > 0) {
     console.log("A distância final: " + distancia + "m");
 }
+
+// For
+// inicialização, condição, finalização
+for(let indice = 0; indice <= 10; indice++){
+    console.log("Indice = " + indice)
+}
