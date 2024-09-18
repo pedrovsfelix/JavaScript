@@ -13,11 +13,14 @@ console.log(arr);
 console.log(tamanho);
 
 // Remover Elementos
-// pop()
+// pop() -> Remove o último elemento
 
 const ultimoElemento = arr.pop();
 console.log(arr);
 console.log(ultimoElemento);
+
+const primeiroElemento = arr.shift();
+console.log(primeiroElemento)
 
 // Pesquisando Elementos
 // true
