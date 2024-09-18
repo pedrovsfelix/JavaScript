@@ -52,7 +52,7 @@ do {
             alert(`A carta ${carta} foi colocada no baralho.`);
             break
         case '2':
-            const removerCarta = baralho.shift();
+            const removerCarta = baralho.pop();
             alert(`A carta ${removerCarta} foi retirada do topo do baralho.`);
             break
         case '3':
